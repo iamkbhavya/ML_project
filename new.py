@@ -4,7 +4,7 @@ import numpy as np
 import pickle
 
 #load model
-model = pickle.load(open('model1.pkl', 'rb'))
+model = pickle.load(open('model1.pkl', 'wb'))
 st.title('What is the Gold price?')
 SPX = st.slider("Stocks price",0.1,5.8)
 USO = st.slider("Oil price",0.1,5.8)
