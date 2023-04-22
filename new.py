@@ -1,6 +1,7 @@
 # model deployment
 import streamlit as st
 import numpy as np
+import pickle
 
 #load model
 model = pickle.load(open('model.pkl', 'rb'))
